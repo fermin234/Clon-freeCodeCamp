@@ -5,11 +5,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background: linear-gradient(to right, #33ccff -9%, #ff99cc 100%);
   box-shadow: 0 3px 13px 1px rgba(0 0 0/ 9%);
+  border-radius: 30px;
 }
 
 .imagen-testimonio {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
   height: 100%;
 }
 
